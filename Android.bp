@@ -19,3 +19,13 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "scanner",
+	owner: "xiaomi",
+	apk: "proprietary/system/priv-app/QrScanner/scanner.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
